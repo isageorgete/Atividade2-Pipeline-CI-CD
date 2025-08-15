@@ -13,10 +13,9 @@ jobs:
       with:
         node-version: '14'
     - name: Install dependencies
-      run: npm install
+      run: cd <Atividade2-Pipeline-CI-CD> && npm install
     - name: Run tests
       run: npm test
-
 
 
   deploy:
